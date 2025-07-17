@@ -1,0 +1,63 @@
+---
+layout: default
+title: "Schedule"
+---
+
+			
+<div style="padding-top: 20px;" class="card">
+
+  <h2 id="schedule">Schedule</h2>
+  <p><em><font color='red'>Note: tentative schedule is subject to change.</font></em></p>
+  
+  <p><strong>S</strong>: Computer Vision: Algorithms and Applications, by Rick Szeliski. See <a href="../resources/">Resources</a></p>
+  
+  <p>Slides will be posted before each lecture in this <a href="https://gtvault-my.sharepoint.com/:f:/g/personal/jhoffman68_gatech_edu/ElEDo3AKd8tJq_OUOnzjN5gBsxOIiYQjWC_pKI5Q2NROlw?e=US73cO">OneDrive folder</a>.</p>
+  
+<div class="table-responsive">
+  <table class="schedule-table table-hover">
+	  <colgroup>
+	  <col width="5%" />
+	  <col width="10%" />
+	  <col width="20%" />
+	  <col width="12%" />
+	  <col width="8%" />
+	  </colgroup>
+
+	
+    <thead>
+			<th>Week</th>
+			<th>Date</th>
+			<th>Topic</th>
+			<th>Readings</th>
+			<th>Assignment</th>
+		</thead>
+  {% for row in site.data.schedule %}
+	
+	<tr class="{{row.type}}">
+		<td data-label="Week">{{row.week}}</td>
+		<td data-label="Date">{{row.date}}</td>
+		<td data-label="Content">{{row.content}}</td>
+		<td data-label="Readings">
+			{% if row.readings_ss and row.readings_fcv %}
+				[{{row.readings_ss}}],  [{{row.readings_fcv}}]
+			{% elsif row.readings_ss %}
+				[{{ row.readings_ss }}]
+			{% elsif row.readings_fcv %}
+				[{{ row.readings_fcv }}]
+			{% endif %}
+			</td>
+		{% if row.assignment %}
+			<td class="due" data-label="Assignment">{{ row.assignment }}</td>
+		{% else %}
+			<td data-label="Assignment"></td>
+		{% endif %}
+	</tr>
+		
+	
+
+  {% endfor %}
+</table>
+</div>
+</div>
+
+

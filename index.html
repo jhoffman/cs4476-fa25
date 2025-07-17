@@ -1,0 +1,43 @@
+---
+layout: default
+title: "Home"
+---
+
+
+
+
+<div class="card">
+	<h2>Lecture</h2>
+<p><strong>Location:</strong> Instructional Center 103</p>
+<p><strong>Time:</strong> TuTh 11:00am-12:15pm</p>
+</div>
+
+
+<div class="card">
+<h2>Important Links</h2>
+<p><a href="{{site.ed_discussion}}">Ed Discussion</a>. This should be your first stop for questions and announcements.</p>
+
+<p><a href="{{site.canvas}}">Canvas</a>. This will be used to view grades and assignments.</p>
+
+<p><a href="{{site.gradescope}}">Gradescope</a>. This will be used to turn in assignments.</p>
+</div>
+
+
+<h2>Course Staff</h2>
+<section class="cards-container">
+  <div class="card instructor-card">
+    <img src="assets/images/instructor.png" alt="Instructor">
+    <h2>{{site.instructor}}</h2>		
+		<p>Course Instructor</p>
+    <p>Office Hours: TBD</p>
+  </div>
+	
+	{% for ta in site.data.ta %}
+		<div class="card ta-card">
+			<img src="{{ ta.img }}" alt="{{ta.name}}">
+			<h2>{{ta.name}}</h2>
+			<p>{{ta.role}}</p>
+			<p>Office Hours: {{ta.officehours}}</p>
+		</div>
+	{% endfor %}
+</section>

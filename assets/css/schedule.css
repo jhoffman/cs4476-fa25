@@ -1,0 +1,162 @@
+/* New warning color for “due” items */
+:root {
+  --color-due:       #fff9db; /* pale yellow */
+  --color-cancel:    #fde2e4; /* pale red */
+  --color-exam: #e6f4ea; /* light green */
+}
+
+
+/* Hover effect */
+.schedule-table tbody tr:hover td {
+  background: var(--color-accent-light);
+}
+
+
+/* ——— Modern Schedule Table Styles ——— */
+
+/* Container lift */
+.schedule-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--color-bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  margin: var(--spacing-lg) 0;
+}
+
+/* Header row as a solid bar */
+.schedule-table thead {
+  background: var(--color-accent);
+}
+
+
+.schedule-table thead th {
+  color: var(--color-bg);
+  font-weight: 600;
+
+  letter-spacing: 0.05em;
+  padding: var(--spacing-md) var(--spacing-lg);
+	border: none;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+
+
+
+/* Body rows: light separators only */
+.schedule-table tbody td {
+  padding: var(--spacing-sm) var(--spacing-md);
+  color: var(--color-text);
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+  transition: background 0.25s ease;
+  vertical-align: middle;
+}
+
+
+/* Remove last-row border */
+.schedule-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+
+
+/* Hover glow */
+.schedule-table tbody tr:hover td {
+  background: var(--color-accent-light);
+}
+
+
+/* When an assignment is due */
+.schedule-table td.due {
+  background: var(--color-due) !important;
+  color: var(--color-primary);
+  font-weight: 600;
+	border-left: 4px solid var(--color-accent) !important; /* optional left border for emphasis */
+}
+
+.schedule-table .cancelled td {
+  background: var(--color-cancel) !important;  /* softer red */
+  color: #842029;
+}
+.schedule-table .exam td {
+  background: var(--color-exam) !important;  /* lighter green */
+  color: var(--color-primary);
+	font-weight: 600;
+}
+
+
+/* Sub-section header rows */
+.schedule-table tr.subheading td {
+  background: var(--color-accent-light);   /* gentle accent background */
+  color: var(--color-primary);             /* your dark slate text */
+  font-weight: 700;                        /* bold */
+  font-size: 1.05rem;                      /* slightly larger */
+  
+  letter-spacing: 0.03em;                  /* nice tracking */
+  padding: var(--spacing-md) var(--spacing-lg);
+}
+
+/* Remove bottom border for the row immediately below */
+.schedule-table tr.subheading + tr td {
+  border-top: none;
+}
+
+
+/* MOBILE STYLE */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+}
+.schedule-table {
+  min-width: 600px; /* ensure scroll appears if viewport < 600px */
+}
+
+@media (max-width: 600px) {
+  /* hide the table header */
+  .schedule-table thead { display: none; }
+
+  /* make each row a block “card” */
+  .schedule-table,
+  .schedule-table tbody,
+  .schedule-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .schedule-table tr {
+    margin-bottom: var(--spacing-lg);
+    background: var(--color-surface);
+    border-radius: var(--radius);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+
+  .schedule-table td {
+    /* stack each cell */
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    position: relative;
+  }
+  .schedule-table td:last-child {
+    border-bottom: none;
+  }
+
+  /* inject label before each cell’s content */
+  .schedule-table td::before {
+    content: attr(data-label);
+    flex: 1 1 40%;
+    font-weight: 600;
+    color: var(--color-muted-text);
+  }
+  .schedule-table td {
+    flex: 1 1 60%;
+    text-align: right;
+  }
+}
+

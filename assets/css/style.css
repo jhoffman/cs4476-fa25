@@ -1,0 +1,212 @@
+:root {
+
+  /* Base & Surfaces */
+  --color-bg:         #ffffff;
+  --color-surface:    #f7f9fa;
+
+  /* Text & Primary */
+  --color-primary:    #2e3a59;
+  --color-text:       #343a40;
+
+  /* PI name: pale gold */
+  --color-header-title: #f1f1f1;
+
+  /* Nav links */
+  --color-nav-link: #CFD8DC;
+
+  /* Accent */
+  --color-accent:     #4a90e2;
+  --color-accent-light: #d0e6fc;
+	--color-accent-lighter: #e0f2fd;
+
+  /* New complementary accent */
+  --color-accent-alt: #2ecc71;
+
+  /* Muted */
+  --color-muted-text: #6c757d;
+
+  /* Typography */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-heading: var(--font-sans);
+
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+
+  /* Border radius */
+  --radius: 0.5rem;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-sans);
+    background: var(--color-bg);
+    color: var(--color-text);
+	  /* ensure the navbar isn’t covering your content */
+	  padding-top: calc(var(--spacing-md) + var(--spacing-md) + 1rem);
+}
+
+main {
+	padding-top: 5rem;
+}
+
+/* Links and buttons */
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+    background: var(--color-primary);
+    padding: var(--spacing-md);
+}
+
+/* Make the header stick to the top */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: var(--spacing-md);
+  background-color: var(--color-surface);
+  color: #7f8c8d;
+  font-size: 0.875rem;
+}
+
+header h1 a {
+	color: var(--color-header-title);
+}
+
+nav {
+  margin-top: 0; /*var(--spacing-sm);*/
+	margin-bottom: var(--spacing-lg);
+	padding-bottom: var(--spacing-lg);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 var(--spacing-md);
+}
+
+nav ul li a {
+  color: var(--color-nav-link);
+  text-decoration: none;
+  font-weight: 600;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius);
+  transition: background-color 0.2s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: rgba(236, 240, 241, 0.2); /* subtle highlight */
+}
+
+.header-title {
+    background: var(--color-header-title);
+    text-align: center;
+    padding: var(--spacing-md);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+.cards-container {
+    display: flex;
+		flex-wrap: wrap;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+		justify-content: center; /* optional: center cards*/
+}
+
+.card {
+    background: var(--color-surface);
+    border-radius: var(--radius);
+    padding: var(--spacing-md);
+		margin-top: var(--spacing-md);
+    text-align: left;
+    flex: 1;
+}
+
+.ta-card {
+	text-align: center;
+  /* make each card at least 250px and allow growth */
+  flex: 0 0 150px;               /* ← flex-grow:1, flex-shrink:1, flex-basis:250px */
+  width: 150px;              /* optional: cap the width */
+  box-sizing: border-box;        /* ensure padding is counted in width */
+}
+
+.instructor-card {
+	text-align: center;
+  /* make each card at least 250px and allow growth */
+  flex: 0 0 150px;               /* ← flex-grow:1, flex-shrink:1, flex-basis:250px */
+  width: 150px;              /* optional: cap the width */
+  box-sizing: border-box;        /* ensure padding is counted in width */
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: var(--radius);
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--spacing-lg) 0;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid var(--color-muted-text);
+    padding: var(--spacing-sm);
+}
+
+.schedule-table .no-lecture {
+    background: var(--color-accent-light);
+}
+
+.schedule-table .exam {
+    background: var(--color-accent-alt);
+}
+
+table {
+    width: 100%;
+}
+
+h1 {
+    margin: var(--spacing-md);
+    font-family: var(--font-heading);
+}
+
+
+.card { 
+	background-color: var(--color-surface); 
+	margin-top: 20px; 
+	padding: 5px 20px 20px;
+	-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,0.1);
+	-moz-box-shadow:0 2px 5px 0 rgba(0,0,0,0.1);
+	-o-box-shadow:0 2px 5px 0 rgba(0,0,0,0.1);
+	-ms-box-shadow:0 2px 5px 0 rgba(0,0,0,0.1);
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.1);
+}

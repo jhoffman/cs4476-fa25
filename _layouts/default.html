@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{page.title}} - {{site.title}}</title>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/schedule.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div class="header-title">
+      <h1>{{site.title}}</h1>
+    </div>
+		
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="{{'/' | relative_url}}"{% if page.url == "/" %}class="active"{% endif %}>Course Info</a></li>
+        <li><a href="{{'/schedule/' | relative_url}}"{% if page.url == "/schedule/" %}class="active"{% endif %}>Schedule</a></li>
+        <li><a href="{{'/policies/' | relative_url}}"{% if page.url == "/policies/" %}class="active"{% endif %}>Policies</a></li>
+        <li><a href="{{'/grading/' | relative_url}}"{% if page.url == "/grading/" %}class="active"{% endif %}>Grading</a></li>
+        <li><a href="{{'/faqs/' | relative_url}}"{% if page.url == "/faqs/" %}class="active"{% endif %}>FAQs</a></li>
+        <li><a href="{{'/resources/' | relative_url}}"{% if page.url == "/resources/" %}class="active"{% endif %}>Resources</a></li>
+      </ul>
+    </nav>
+</header>
+  <main>
+		<div class="container">
+    {{ content }}
+	</div>
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.instructor }} - {{ site.title }}</p>
+  </footer>
+</body>		
+		
+		
+</html>
