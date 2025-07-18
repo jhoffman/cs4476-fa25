@@ -37,7 +37,7 @@ title: "Schedule"
 	<tr class="{{row.type}}">
 		<td data-label="Week">{{row.week}}</td>
 		<td data-label="Date">{{row.date}}</td>
-		{% if {{row.type}} == "subheading" %}
+		{% if row.type == "subheading" %}
 			<td data-label="Content" colspan="3">{{row.content}}</td>
 		{% else %}
 			<td data-label="Content">{{row.content}}</td>
