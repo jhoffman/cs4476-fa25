@@ -5,7 +5,7 @@ num	week	date	content	assignment	readings_ss	readings_fcv	type	misc
 3	W2	"Tue, Aug 26"	Light and Color	Syllabus Review Due	S 2.3.2	FCV 8		
 4	W2	"Thu, Aug 28"	Cameras and Image Formation		"S 3.1.1-2, 3.2"	FCV 5		
 			Filters and Features				subheading	
-5	W3	"Tue, Sep 2"	Linear Filters	PS1 Due	"S 3.2.3, S 3.3.2-4, 4.2"			
+5	W3	"Tue, Sep 2"	Linear Filters	PS1 Due	"S 3.2.3, S 3.3.2-4, 4.2"	FCV 17		
 6	W3	"Thu, Sep 4"	"Gradients, Edge Detection"		S 4.1			
 7	W4	"Tue, Sep 9"	Local invariant features (part 1)		S 4.1			
 8	W4	"Thu, Sep 11"	Local invariant features (part 2)		"S 2.1.1-2, 6.1.1, 6.1.4"			
@@ -19,14 +19,14 @@ num	week	date	content	assignment	readings_ss	readings_fcv	type	misc
 	W8	"Tue, Oct 7"	Fall Break 		S 14.3		cancelled	Fall break
 15	W8	"Thu, Oct 9"	Stereo & Structure from Motion					
 			Deep Learning and Recognition				subheading	
-16	W9	"Tue, Oct 14"	Intro to Learning	Check-in Survey Due				
-17	W9	"Thu, Oct 16"	Gradient Based Learning		<a href='http://cs231n.github.io/optimization-2/'>CS 231 Backprop ex</a>			
-18	W10	"Tue, Oct 21"	Neural Networks	PS3 Due				ICCV
-19	W10	"Thu, Oct 23"	Backpropagation		<a href='http://cs231n.github.io/convolutional-networks/'>CS 231 Convnets</a>			ICCV
+16	W9	"Tue, Oct 14"	Intro to Learning	Check-in Survey Due		FCV 9		
+17	W9	"Thu, Oct 16"	Gradient Based Learning			FCV 10		
+18	W10	"Tue, Oct 21"	Neural Networks	PS3 Due		FCV 12		ICCV
+19	W10	"Thu, Oct 23"	Backpropagation		<a href='http://cs231n.github.io/optimization-2/'>CS 231 Backprop ex</a>	FCV 14		ICCV
 			Vision Architectures and Models				subheading	
-20	W11	"Tue, Oct 28"	Convolutional Neural Networks I					
-21	W11	"Thu, Oct 30"	Convolutional Neural Networks II					
-22	W12	"Tue, Nov 4"	Vision Transformers		<a href='http://cs231n.github.io/convolutional-networks/'>CS 231 Convnets</a>			
+20	W11	"Tue, Oct 28"	Convolutional Neural Networks I		<a href='http://cs231n.github.io/convolutional-networks/'>CS 231 Convnets</a>			
+21	W11	"Thu, Oct 30"	Convolutional Neural Networks II		<a href='http://cs231n.github.io/convolutional-networks/'>CS 231 Convnets</a>			
+22	W12	"Tue, Nov 4"	Vision Transformers					
 23	W12	"Thu, Nov 6"	Segmentation & Detection					
 			Advanced Applications and Topics (tentative)				subheading	
 24	W13	"Tue, Nov 11"	Generative Models					
