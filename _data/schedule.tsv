@@ -6,31 +6,31 @@ num	week	date	content	assignment	readings_ss	readings_fcv	type	misc
 4	W2	"Thu, Aug 28"	Cameras and Image Formation		"S 3.1.1-2, 3.2"	FCV 5		
 			Filters and Features				subheading	
 5	W3	"Tue, Sep 2"	Linear Filters	PS1 Due	"S 3.2.3, S 3.3.2-4, 4.2"	FCV 17		
-6	W3	"Thu, Sep 4"	"Gradients, Edge Detection"		S 4.1			
+6	W3	"Thu, Sep 4"	"Gradients, Edge Detection"		S 4.1	FCV 18		
 7	W4	"Tue, Sep 9"	Local invariant features (part 1)		S 4.1			
 8	W4	"Thu, Sep 11"	Local invariant features (part 2)		"S 2.1.1-2, 6.1.1, 6.1.4"			
 			Geometry and Calibration				subheading	
-9	W5	"Tue, Sep 16"	"Alignment, 2D Transformations, RANSAC"		S 4.3.2			
-10	W5	"Thu, Sep 18"	Homography and image warping	PS2 Due				
-11	W6	"Tue, Sep 23"	Intro Stereo and Calibration		S 3.6.1			Rosh Hashana
-12	W6	"Thu, Sep 25"	Review Day		"S 7.2, 11.1.1, 11.2-11.5"			
-13	W7	"Tue, Sep 30"	Exam 1 - in person		"S 7.2, 11.1.1, 11.2-11.5"		exam	
+9	W5	"Tue, Sep 16"	"Alignment, 2D Transformations, RANSAC"		S 4.3.2	"FCV 38, 41"		
+10	W5	"Thu, Sep 18"	Homography and image warping	PS2 Due	S 3.6.1	"FCV 38, 41"		
+11	W6	"Tue, Sep 23"	Intro Stereo and Calibration		"S 7.2, 11.1.1, 11.2-11.5"	FCV 39		Rosh Hashana
+12	W6	"Thu, Sep 25"	Review Day					
+13	W7	"Tue, Sep 30"	Exam 1 - in person				exam	
 14	W7	"Thu, Oct 2"	Epipolar Geometry		"S 7.2, 11.1.1, 11.2-11.5"	"FCV 40, 44"		
-	W8	"Tue, Oct 7"	Fall Break 		S 14.3		cancelled	Fall break
-15	W8	"Thu, Oct 9"	Stereo & Structure from Motion					
+	W8	"Tue, Oct 7"	Fall Break 				cancelled	Fall break
+15	W8	"Thu, Oct 9"	Stereo & Structure from Motion	Check-in Survey Due	"S 7.2, 11.1.1, 11.2-11.5"	"FCV 40, 44"		
 			Deep Learning and Recognition				subheading	
-16	W9	"Tue, Oct 14"	Intro to Learning	Check-in Survey Due		FCV 9		
+16	W9	"Tue, Oct 14"	Intro to Learning		S 14.3	FCV 9		
 17	W9	"Thu, Oct 16"	Gradient Based Learning			FCV 10		
 18	W10	"Tue, Oct 21"	Neural Networks	PS3 Due		FCV 12		ICCV
 19	W10	"Thu, Oct 23"	Backpropagation		<a href='http://cs231n.github.io/optimization-2/'>CS 231 Backprop ex</a>	FCV 14		ICCV
 			Vision Architectures and Models				subheading	
-20	W11	"Tue, Oct 28"	Convolutional Neural Networks I		<a href='http://cs231n.github.io/convolutional-networks/'>CS 231 Convnets</a>			
-21	W11	"Thu, Oct 30"	Convolutional Neural Networks II		<a href='http://cs231n.github.io/convolutional-networks/'>CS 231 Convnets</a>			
-22	W12	"Tue, Nov 4"	Vision Transformers					
+20	W11	"Tue, Oct 28"	Convolutional Neural Networks I		<a href='http://cs231n.github.io/convolutional-networks/'>CS 231 Convnets</a>	FCV 24		
+21	W11	"Thu, Oct 30"	Convolutional Neural Networks II		<a href='http://cs231n.github.io/convolutional-networks/'>CS 231 Convnets</a>	"FCV 24, 36.2"		
+22	W12	"Tue, Nov 4"	Vision Transformers			FCV 26		
 23	W12	"Thu, Nov 6"	Segmentation & Detection					
 			Advanced Applications and Topics (tentative)				subheading	
-24	W13	"Tue, Nov 11"	Generative Models					
-25	W13	"Thu, Nov 13"	The Importance of Data	PS4 Due		FCV 32		
+24	W13	"Tue, Nov 11"	Generative Models			FCV 32		
+25	W13	"Thu, Nov 13"	The Importance of Data	PS4 Due				
 26	W14	"Tue, Nov 18"	Review Day					
 27	W14	"Thu, Nov 20"	Exam 2 - in person				exam	
 28	W15	"Tue, Nov 25"	Recent Research					Tu before thanksgiving

@@ -24,7 +24,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: var(--spacing-sm) var(--spacing-md);
-  /*height: 60px;*/
   background-color: var(--color-header-background);
   position: relative;
   z-index: 1000;
@@ -38,11 +37,6 @@ header {
   font-size: 1.4rem;
   margin: 0;
   text-align: left;
-	color: white;
-}
-
-
-header h1 a {
 	color: var(--color-header-title);
 }
 
