@@ -110,7 +110,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 	header h1 {
-	  font-size: 1.3rem;
+	  font-size: 1.4rem;
 	}
 	
 	.header-bar {
@@ -123,6 +123,13 @@ nav ul li a {
 	  background-color: var(--color-header-background);
 	  position: relative;
 	  z-index: 1000;
+	}
+	
+	.header-title {
+	  flex: 1 1 auto;
+	  overflow: hidden;
+	  white-space: nowrap;
+	  text-overflow: ellipsis;
 	}
 	
   .navbar {
