@@ -27,7 +27,7 @@ title: "Home"
 <section class="cards-container">
   <div class="card instructor-card">
     <img src="assets/images/instructor.png" alt="Instructor">
-    <h3>{{site.instructor}}</h3>		
+    <h3><a href="{{ site.instructor_url }}">{{site.instructor}}</a></h3>		
 		<p>Course Instructor</p>
     <p>Office Hours: TBD</p>
   </div>
@@ -35,7 +35,7 @@ title: "Home"
 	{% for ta in site.data.ta %}
 		<div class="card ta-card">
 			<img src="{{ ta.img }}" alt="{{ta.name}}">
-			<h3>{{ta.name}}</h3>
+			<h3><a href="{{ ta.url }}">{{ta.name}}</a></h3>
 			<p>{{ta.role}}</p>
 			<p>Office Hours: {{ta.officehours}}</p>
 		</div>
