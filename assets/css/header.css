@@ -110,7 +110,11 @@ nav ul li a {
 @media (max-width: 768px) {
 
 	header h1 {
-	  font-size: 1.4rem;
+	  font-size: 1.3rem;
+	}
+	
+	nav {
+		margin-top: 0;
 	}
 	
 	.header-bar {
