@@ -52,13 +52,6 @@ a:hover {
 }
 
 
-main {
-  padding-top: 70px; /* match header height */
-}
-
-main > *:first-child {
-  margin-top: var(--spacing-md);
-}
 
 
 
