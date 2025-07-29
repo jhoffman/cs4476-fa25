@@ -1,10 +1,11 @@
-- name: "Fengzhe Zhou"
+- name: "Yue Zhao"
   img: "assets/images/person.png"
-  role: "TA"
+  role: "Head TA"
   officehours: "TBD"
   url: ""
 
-- name: "Yue Zhao"
+
+- name: "Fengzhe Zhou"
   img: "assets/images/person.png"
   role: "TA"
   officehours: "TBD"
