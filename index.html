@@ -28,16 +28,16 @@ title: "Home"
   <div class="card instructor-card">
     <img src="assets/images/instructor.png" alt="Instructor">
     <h3><a href="{{ site.instructor_url }}">{{site.instructor}}</a></h3>		
-		<p>Course Instructor</p>
-    <p>Office Hours: TuTh 12:15pm-12:45pm, Instructional Center<p>
+		<p><b>Course Instructor</b></p>
+    <p><b>Office Hours</b>: TuTh 12:15pm-12:45pm, Instructional Center<p>
   </div>
 	
 	{% for ta in site.data.ta %}
 		<div class="card ta-card">
 			<img src="{{ ta.img }}" alt="{{ta.name}}">
 			<h3><a href="{{ ta.url }}">{{ta.name}}</a></h3>
-			<p>{{ta.role}}</p>
-			<p>Office Hours: {{ta.officehours}}</p>
+			<p><b>{{ta.role}}</b></p>
+			<p><b>Office Hours</b>: {{ta.officehours}}</p>
 		</div>
 	{% endfor %}
 </section>
