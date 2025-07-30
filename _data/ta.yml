@@ -24,16 +24,16 @@
   url: ""
 
 - name: "Adrian Cheung"
-  img: "assets/images/person.png"
+  img: "assets/images/adrian.jpg"
   role: "TA"
   officehours: "TBD"
-  url: ""
+  url: "https://adriancheu.ng"
 
 - name: "Jiannan Huang"
-  img: "assets/images/person.png"
+  img: "assets/images/jiannan.jpeg"
   role: "TA"
   officehours: "TBD"
-  url: ""
+  url: "rbrq03.github.io"
 
 - name: "Jialuo Li"
   img: "assets/images/person.png"
