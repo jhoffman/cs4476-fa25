@@ -12,13 +12,13 @@
   url: ""
 
 - name: "Sparsh Gupta"
-  img: "assets/images/person.png"
+  img: "assets/images/sparsh.png"
   role: "TA"
   officehours: "TBD"
   url: ""
 
 - name: "Sarika Singh"
-  img: "assets/images/person.png"
+  img: "assets/images/sarika.jpg"
   role: "TA"
   officehours: "TBD"
   url: ""
@@ -42,7 +42,7 @@
   url: ""
 
 - name: "Varun Vedula"
-  img: "assets/images/person.png"
+  img: "assets/images/varun.png"
   role: "TA"
   officehours: "TBD"
   url: ""
