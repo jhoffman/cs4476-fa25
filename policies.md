@@ -9,8 +9,10 @@ title: "Policies"
 * **Lecture** This course will be virtual live synchronous. Video recordings of the lectures will be made available within two days after each class.  
 * **Problem Sets**: 
 	* Each assignment will have components required and many will also have extra credit. 
-		* Each problem set will contain a programming component and a short answer component, both to be submitted via Gradescope. PS0 will only contain questions within Gradescope. 
+		* Each problem set will contain a programming component and a short answer component, both to be submitted via Gradescope.  
 	* You may discuss the problem sets with other students, but your submission (both text and code) must be **individual work**. 
+* **Participation Surveys**:
+	* Both the syllabus review and mid-semester check-in survey will be submitted through Canvas.
 * **Exams**: This course will have two exams. These are designed to test your understanding of the material. They will be administered **during class and in-person** on the date indicated on the course schedule.  
 </div>
 
