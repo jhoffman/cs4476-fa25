@@ -6,7 +6,7 @@ title: "Policies"
 <div class="card" markdown=1>
 ## Course Structure
 * This is a lecture-based course with project/coding assignments and two exams. Students are expected to attend lectures and participate in discussions.
-* **Lecture** This course will be virtual live synchronous. Video recordings of the lectures will be made available within two days after each class.  
+* **Lecture** This course will be in-person. Video recordings of the lectures will be made available within two days after each class.  
 * **Problem Sets**: 
 	* Each assignment will have components required and many will also have extra credit. 
 		* Each problem set will contain a programming component and a short answer component, both to be submitted via Gradescope.  
